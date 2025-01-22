@@ -16,6 +16,10 @@ Payments. If the customer is submitting payment for an online order, they will w
 
 Note: this is a very simple example, and there may be cases where payments could benefit from using both synchronous and asynchronous communication.
 
+Another example is if you want to perfect an asynchronous fetch for the customers shopping basket. You first need to fetch the customers user id, then do a fetch for the basket. The basket fetch can be asynchronous but because this fetch requires the user id, the first fetch would need to be completed first and makes more sense to be synchronous.
+
+...or you could use await but we don't get into that here at the moment.
+
 ## Why can asynchronous communication not be used with local files?
 
 Accessing local files needs extra security.
