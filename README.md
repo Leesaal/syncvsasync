@@ -15,3 +15,7 @@ So, during times when the customer needs to continue using the websites function
 Payments. If the customer is submitting payment for an online order, they will want a clear response with a definite success or failure. A synchronous payment system will allow fraud checks to be conducted before the payment goes through and we want to be able to catch fraudulent activity before money is transferred.
 
 Note: this is a very simple example, and there may be cases where payments could benefit from using both synchronous and asynchronous communication.
+
+## Why can asynchronous communication not be used with local files?
+
+Accessing local files needs extra security.
