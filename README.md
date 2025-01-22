@@ -23,3 +23,7 @@ Another example is if you want to perfect an asynchronous fetch for the customer
 ## Why can asynchronous communication not be used with local files?
 
 Accessing local files needs extra security.
+
+## Where to find the code
+
+The code is within syncvsasync/src/App.tsx
